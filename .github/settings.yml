@@ -69,4 +69,5 @@ rulesets:
         parameters:
           required_status_checks:
             - context: linting / Linting
+            - context: build / Build
           strict_required_status_checks_policy: true
