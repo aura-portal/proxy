@@ -7,16 +7,8 @@ on:
 permissions:
   contents: read
 jobs:
-  linting:
-    uses: aura-portal/.github/.github/workflows/linting.yaml@main
-    permissions:
-      contents: read
-      packages: read
-      statuses: write
-      checks: write
   versions:
     uses: aura-portal/.github/.github/workflows/versions.yaml@main
-    needs: linting
     with:
       tag: ${{ github.ref_name }}
   docker-release:
