@@ -1,0 +1,6 @@
+---
+services:
+  proxy:
+    build: ./app
+    ports:
+      - 80:80

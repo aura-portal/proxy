@@ -4,6 +4,10 @@
 
 This is intended for local use only to replicate a simple load balancer.
 
+## Prerequisites
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
 ## Usage
 
 ```yaml
